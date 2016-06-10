@@ -1,0 +1,19 @@
+#ifndef COMMAND_H_
+#define COMMAND_H_
+//////////////////////////////////////////////////////////////////////////
+//
+// 2016/4/5 21:49 ÃüÁî½Ó¿Ú
+//  Simple Xu
+//////////////////////////////////////////////////////////////////////////
+
+class Command
+{
+public:
+	Command(){}
+	virtual ~Command(){}
+
+	virtual void Execute() = 0;
+	virtual void Undo() = 0;
+};
+
+#endif

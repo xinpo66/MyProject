@@ -1,0 +1,22 @@
+#ifndef LIGHT_H_
+#define LIGHT_H_
+////////////////////////////////////////////////////////////////////////////
+//
+// 2016/4/5 21:57 ≥ß…Ãµ∆¿‡
+// Simple Xu
+//////////////////////////////////////////////////////////////////////////
+
+#include <stdio.h>
+
+class Light
+{
+public:
+	Light(){}
+	~Light(){};
+
+	void On(){ printf("Light on\n"); }
+	void Off(){ printf("Light off\n");}
+};
+
+
+#endif//LIGHT_H_

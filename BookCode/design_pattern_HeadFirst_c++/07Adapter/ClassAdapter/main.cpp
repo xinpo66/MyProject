@@ -1,0 +1,18 @@
+
+//////////////////////////////////////////////////////////////////////////
+//
+// 2016/4/16 9:25 Simple Xu
+// 类适配器的一个简单测试例子
+//////////////////////////////////////////////////////////////////////////
+
+#include <sp.hpp>
+
+#include "Adapter.h"
+
+int main(int argc,char* argv[])
+{
+	SP<Adapter> pAdapter( new Adapter());
+	pAdapter->Request();
+
+	return 0;
+}
